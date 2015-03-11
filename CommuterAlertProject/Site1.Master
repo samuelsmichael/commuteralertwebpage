@@ -1,0 +1,62 @@
+<%@ Master Language="C#" AutoEventWireup="True" CodeBehind="Site1.master.cs" Inherits="CommuterAlertProject.Site1" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>Commuter Alarm</title>
+    <style type="text/css">
+        @import url("./site.css");
+        @import url("../site.css");
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <img style="margin-bottom:28px;" width="300px" src="images/Logo2Small.png"></img>
+        <asp:Menu ID="Menu1" runat="server" 
+            BackColor="#F7F6F3" DynamicHorizontalOffset="2" Font-Names="Verdana" Font-Size="1.1em"
+            ForeColor="#7C6F57" StaticSubMenuIndent="10px" Orientation="Horizontal" OnMenuItemClick="Menu1_MenuItemClick">
+            
+            <StaticSelectedStyle BackColor="#5D7B9D" ForeColor="AliceBlue" />
+            <StaticMenuItemStyle HorizontalPadding="35px" VerticalPadding="2px" />
+            <DynamicHoverStyle BackColor="#7C6F57" ForeColor="White" />
+            <DynamicMenuStyle BackColor="#F7F6F3" />
+            <DynamicSelectedStyle BackColor="#5D7B9D" />
+            <DynamicMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
+            <StaticHoverStyle BackColor="#7C6F57" ForeColor="White" />
+            <Items>
+                <asp:MenuItem Text="Home" Value="Home"></asp:MenuItem>
+                <asp:MenuItem Text="Usage" Value="Usage"></asp:MenuItem>
+                <asp:MenuItem Text="Product Features" Value="Product Features"></asp:MenuItem>
+                <asp:MenuItem Text="Privacy Policy" Value="Privacy Policy"></asp:MenuItem>
+                <asp:MenuItem Text="Beta Testing" Value="Beta Testing"></asp:MenuItem>
+            </Items>
+        </asp:Menu>
+    <div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+    </div>
+    <asp:Panel runat="server" ID="PanelPolicy" style="padding-top:20px;">
+        <table width="100%" style="padding-bottom:10px; padding-left:20px; padding-right:20px; padding-bottom:10px;" cellpadding="0">
+            <tr>
+                <td width="33%"><div class="body-small">
+        <a href="https://play.google.com/store/apps/details?id=com.usefulsoftwaresolutions.android.commuterhelper">
+            <img alt="Get it on Google Play" src="https://developer.android.com/images/brand/en_generic_rgb_wo_45.png" />
+        </a></div>
+                </td>
+                <td width="33%"><div class="body-small">
+                    <a href="mailto:usefulsoftwaresolutions@gmail.com.com">Contact Us</a></div>
+                </td>
+                <td width="33%"><div class="body-small">View our 
+                    <asp:LinkButton ID="LinkButtonPolicyStatement" runat="server" OnClick="LinkButtonPolicyStatement_Click">Policy Statement</asp:LinkButton>.</div>
+                </td>
+            </tr>
+        </table>
+    
+    </asp:Panel>        
+    </form>
+</body>
+</html>

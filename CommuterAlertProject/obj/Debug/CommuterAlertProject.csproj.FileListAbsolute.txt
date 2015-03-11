@@ -1,0 +1,5 @@
+C:\Users\Diamond\Documents\Visual Studio 2008\Projects\CommuterAlert\CommuterAlertProject\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\Diamond\Documents\Visual Studio 2008\Projects\CommuterAlert\CommuterAlertProject\bin\CommuterAlertProject.dll
+C:\Users\Diamond\Documents\Visual Studio 2008\Projects\CommuterAlert\CommuterAlertProject\bin\CommuterAlertProject.pdb
+C:\Users\Diamond\Documents\Visual Studio 2008\Projects\CommuterAlert\CommuterAlertProject\obj\Debug\CommuterAlertProject.dll
+C:\Users\Diamond\Documents\Visual Studio 2008\Projects\CommuterAlert\CommuterAlertProject\obj\Debug\CommuterAlertProject.pdb
